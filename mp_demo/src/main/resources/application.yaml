@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mp_test
+    username: root
+    password: 123456789
+    type: com.alibaba.druid.pool.DruidDataSource
+
+# 配置mybatis-plus的日志生成
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
